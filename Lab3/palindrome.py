@@ -12,3 +12,6 @@ cont = True
 while(cont):
   word = input("Please enter a word : ")
   print (isPalindrome(word))
+  word = input("do you want to continue : (Y/N)")
+  if word == 'N':
+    cont = False
