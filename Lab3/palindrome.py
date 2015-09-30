@@ -8,10 +8,14 @@ def isPalindrome (word):
 
 
 cont = True
-
+print ("welcome in the palindrome programm")
 while(cont):
   word = input("Please enter a word : ")
-  print (isPalindrome(word))
+  if isPalindrome(word):
+    print ("it's a palindrome")
+  else :
+     print("it's not a palindrome")
   word = input("do you want to continue : (Y/N)")
   if word == 'N':
     cont = False
+print ("bye see you soon")
