@@ -1,5 +1,8 @@
 #!/usr/bin/python3
-
+'''This method determine if the word is a palindrome or not
+	param : string is the word to test
+	return : true if the word is a palindrome, otherwise false
+'''
 def isPalindrome (word):
   return word==word[::-1]
 
